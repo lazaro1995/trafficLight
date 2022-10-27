@@ -10,3 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.box-1:focus {
+    box-shadow: 0 0 50px rgba(123, 212, 6, 0.979);
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.circle {
+    /* background-color: red; */
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+  .light {
+    height: 300px;
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
